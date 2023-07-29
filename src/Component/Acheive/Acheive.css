@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap');
+
+
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root{
+
+
+  --primary-bg-color:rgba(255, 87, 8, 0.851);
+  --secondary-bg-color:rgba(255, 135, 79, 0.851);
+  --ternary-bg-color:rgba(255, 181, 147, 0.851);
+  --bg-color:hsl(0,0%,100%);
+  --white-color:rgb(255, 255, 255);
+  --color-primary:black;
+  --color-grey:hsl(0, 0%, 91%);
+
+  --fw-bold:bold;
+  --fw-normal:500;
+  --fw-light:100;
+
+  --bigFontSize:3rem;
+  --h1FontSize:2rem;
+  --h2FontSize:1.25rem;
+  --h3FontSize:1rem;
+  --NormalFontsize:0.938rem;
+  --smallFontSize:0.813rem;
+  --smallestFontSize:0.75rem;
+  --border-radius:3rem;
+}
+
+.acheive{
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 30px;
+}
+.acheive .row{
+    padding: 20px 80px;
+    background-color: var(--ternary-bg-color);
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acheive .row .list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.acheive .row .list span{
+    font-size: var(--h2FontSize);
+    font-weight: 500;
+}
+.acheive .row .list p{
+    margin-top: 16px;
+    font-size: var(--smallFontSize);
+    margin-left: 4px;
+}
+
+@media screen and (max-width:991px) {
+    .acheive .row{
+        padding: 20px 20px;
+    }
+}

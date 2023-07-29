@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap');
+
+
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root{
+
+
+  --primary-bg-color:rgba(255, 87, 8, 0.851);
+  --secondary-bg-color:rgba(255, 135, 79, 0.851);
+  --ternary-bg-color:rgba(255, 181, 147, 0.851);
+  --bg-color:hsl(0,0%,100%);
+  --white-color:rgb(255, 255, 255);
+  --color-primary:black;
+  --color-grey:hsl(0,0%,51%);
+
+  --fw-bold:bold;
+  --fw-normal:500;
+  --fw-light:100;
+
+  --bigFontSize:2.5rem;
+  --h1FontSize:2rem;
+  --h2FontSize:1.25rem;
+  --h3FontSize:1rem;
+  --NormalFontsize:0.938rem;
+  --smallFontSize:0.813rem;
+  --smallestFontSize:0.75rem;
+  --border-radius:3rem;
+}
+.footer{
+    background-color: var(--ternary-bg-color);
+}
+.footer .row{
+    padding: 50px 120px;
+}
+.footer .row .footer-con .list{
+   display: flex;
+   flex-direction: column;
+}
+.footer .row .footer-con .logo{
+    color:var(--primary-bg-color);
+    font-weight: 500;
+}
+.footer .row .footer-con .icon i{
+    color:var(--primary-bg-color);
+    font-size: 30px;
+}
+.footer .row .footer-con h3{
+    font-size: var(--h2FontSize);
+}
+.footer .row .footer-con span{
+    font-size: var(--NormalFontsize);
+}
+
+@media screen and (max-width:575px){
+    .footer .row{
+        padding: 20px 20px;
+    }
+}

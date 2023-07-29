@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap');
+
+
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root{
+
+
+  --primary-bg-color:rgba(255, 87, 8, 0.851);
+  --secondary-bg-color:rgba(255, 135, 79, 0.851);
+  --ternary-bg-color:rgba(255, 181, 147, 0.851);
+  --bg-color:hsl(0,0%,100%);
+  --white-color:rgb(255, 255, 255);
+  --color-primary:black;
+  --color-grey:hsl(0, 0%, 71%);
+
+  --fw-bold:bold;
+  --fw-normal:500;
+  --fw-light:100;
+
+  --bigFontSize:3rem;
+  --h1FontSize:2rem;
+  --h2FontSize:1.25rem;
+  --h3FontSize:1rem;
+  --NormalFontsize:0.938rem;
+  --smallFontSize:0.813rem;
+  --smallestFontSize:0.75rem;
+  --border-radius:3rem;
+}
+.about{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+.about .about-us .service{
+    display: flex;
+    justify-content: center;
+   
+}
+.about .about-us .service i{
+    font-size: 40px;
+    color:rgb(31, 31, 31);
+}
+
+.about .row h1{
+    font-size: var(--h1FontSize);
+    font-weight: 700;
+}
+.about .about-us .service .work h3{
+    font-size: var(--h2FontSize);
+    font-weight: 700;
+}
+.about .about-us .service .work p{
+    font-size: var(--smallFontSize);
+}
+
+
+.about .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.about .image .bg-img{
+    width: 60%;
+    height: 450px;
+    background-image: url(../../Asset/Images/medition.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    border-radius: 200px;
+}
+
+.about .image .flower{
+    width: 60%;
+    height: 200px;
+    border-radius: 200px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    border-right: 5px solid white;
+    position: absolute;
+    left:-50px;  
+    bottom: 10px;
+}
+
+@media screen and (max-width:767px){
+    .about .image .bg-img{
+        height: 350px;
+    }
+}
+@media screen and (max-width:500px){
+    .about .image .bg-img{
+        height: 300px;
+        border-radius: 100px;
+    }
+    .about .image .flower{
+        height: 150px;
+    }
+    .about .row .con h1{
+        font-size: var(--h2FontSize);
+    }
+}
+
+@media screen and (max-width:475px){
+    .about .about-us .service .work h3{
+        font-size: var(--h3FontSize);
+    }
+    .about .about-us .service i{
+        font-size: 30px;
+    }
+}

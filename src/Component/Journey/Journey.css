@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap');
+
+
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root{
+
+
+  --primary-bg-color:rgb(255, 70, 8);
+  --secondary-bg-color:rgba(255, 135, 79, 0.851);
+  --ternary-bg-color:rgba(255, 181, 147, 0.851);
+  --bg-color:hsl(0,0%,100%);
+  --white-color:rgb(255, 255, 255);
+  --color-primary:black;
+  --color-grey:hsl(0,0%,51%);
+
+  --fw-bold:bold;
+  --fw-normal:500;
+  --fw-light:100;
+
+  --bigFontSize:2.5rem;
+  --h1FontSize:2rem;
+  --h2FontSize:1.25rem;
+  --h3FontSize:1rem;
+  --NormalFontsize:0.938rem;
+  --smallFontSize:0.813rem;
+  --smallestFontSize:0.75rem;
+  --border-radius:3rem;
+}
+
+.journey{
+    min-height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.journey .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.journey .row .png-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.journey .row .png-img img{
+    width: 80%;
+    border-radius: 25%;
+    object-fit: cover;
+    object-position: center;
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.journey .row .content h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.journey .row .content p{
+    font-size: var(--NormalFontsize);
+}
+.journey .row .content .start{
+    border: none;
+    border-radius: var(--border-radius);
+    background-color: var(--primary-bg-color);
+    color:var(--white-color);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: .3s ease-in-out;
+}
+.journey .row .content .start:hover{
+    background-color: var(--white-color);
+    border: 1px solid var(--primary-bg-color);
+    color:var(--primary-bg-color);
+    transition: .3s ease-in-out;
+}
+@media screen and (max-width:575px){
+    .journey .row .content h1{
+        font-size: 1.5rem;
+    }
+    .journey .row .png-img img{
+        width: 100%;
+    }
+    .journey{
+        min-height: 20vh;
+    }
+}
