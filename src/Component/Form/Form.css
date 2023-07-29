@@ -56,6 +56,7 @@
 .form .row .input i{
     position: absolute;
     right: 25px;
+    color: black;
 }
 .form-control{
     background-color: transparent;

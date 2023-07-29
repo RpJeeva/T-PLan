@@ -7,6 +7,8 @@ const Images = () => {
   useEffect(()=>{
     Aos.init({duration:1000})
 },[])
+ 
+  
   return (
     <div className='images container-lg'>
          <ul className='list' data-aos="fade-up">

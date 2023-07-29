@@ -30,11 +30,11 @@ const Question = () => {
 
                     <div className="accordion-item mt-3">
                         <h2 className="accordion-header">
-                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="true" data-aos="fade-up" aria-controls="collapseOne">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="false" data-aos="fade-up" aria-controls="collapseOne">
                             How do i choose the right travel destination for me
                         </button>
                         </h2>
-                        <div id="collapsetwo" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapsetwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div className="accordion-body" data-aos="fade-up">
                             consider your interests budget, desried experience, and the type of environment
                             you enjoy.Reasearch destination that align with your preferences and offer attraction
@@ -45,12 +45,12 @@ const Question = () => {
 
                     <div className="accordion-item mt-3">
                         <h2 className="accordion-header">
-                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-aos="fade-up" data-bs-target="#collapsethree" aria-expanded="true" aria-controls="collapseOne">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-aos="fade-down" data-bs-target="#collapsethree" aria-expanded="true" aria-controls="collapseOne">
                             How do i choose the right travel destination for me
                         </button>
                         </h2>
-                        <div id="collapsethree" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div className="accordion-body" data-aos="fade-up">
+                        <div id="collapsethree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
                             consider your interests budget, desried experience, and the type of environment
                             you enjoy.Reasearch destination that align with your preferences and offer attraction
                             or activities you find applealing
@@ -60,11 +60,11 @@ const Question = () => {
 
                     <div className="accordion-item mt-3">
                         <h2 className="accordion-header">
-                        <button className="accordion-button" data-aos="fade-up" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="true" aria-controls="collapseOne">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="true" aria-controls="collapseOne">
                             How do i choose the right travel destination for me
                         </button>
                         </h2>
-                        <div id="collapsefour" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapsefour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div className="accordion-body" data-aos="fade-up">
                             consider your interests budget, desried experience, and the type of environment
                             you enjoy.Reasearch destination that align with your preferences and offer attraction
